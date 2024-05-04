@@ -15,7 +15,7 @@ jobs:
       run: mkdir -p prod
     - name: Copy file to prod
       run: |
-        cp dev/test.txt prod/test.txt
+        cp dev/dev.txt prod/prod.txt
     - name: Commit and push changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
