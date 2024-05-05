@@ -19,7 +19,7 @@ jobs:
     - name: Commit and push changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: "Copy test.txt to prod"
+        commit_message: "Copy dev.txt to prod"
         commit_user_name: "GitHub Actions"
         commit_user_email: "actions@github.com"
     
